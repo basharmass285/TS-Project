@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+.title {
+    padding-bottom: 15px;
+}
+
+.note {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.deleteButton {
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+}
+
+.note img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#notesContainer {
+    width: 450px;
+    margin: auto;
+}
+
+#addNoteContainer {
+    width: 450px;
+    margin: auto;
+}
+
+#addNoteContainer input[type="text"],
+#addNoteContainer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+}
+
+#addNoteButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addNoteButton:hover {
+    background-color: #45a049;
+}

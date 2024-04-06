@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Tasks</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1 class="title">Personal Tasks</h1>
+        <button id="editModeButton">Edit Mode</button>
+    </header>
+    <main id="notesContainer">
+        <!-- Notes will be dynamically added here -->
+    </main>
+    <div id="addNoteContainer" style="display: none;">
+        <input type="text" id="noteTitle" placeholder="Title">
+        <textarea id="noteText" placeholder="Text"></textarea>
+        <input type="text" id="noteImage" placeholder="Image Address">
+        <div class="btn-submit">
+            <button id="addNoteButton">Add Note</button>
+        </div>
+    </div>
+
+    <script type="module" src="./output/app.js"></script>
+</body>
+</html>
